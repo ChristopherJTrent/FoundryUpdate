@@ -1,0 +1,15 @@
+{
+  "name": "foundryupdate",
+  "version": "1.0.0",
+  "main": "./bin/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./bin/index.js"
+  }
+}
